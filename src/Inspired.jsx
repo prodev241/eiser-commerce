@@ -21,71 +21,71 @@ const Inspired = () => {
   <div>
           <ProductCard2
             image={n2}
-            name={`Latest men’s sneaker`}
-            price={`$25.00`}
-            price2={`$35.00`}
+            name={<p>Latest men’s sneaker</p>}
+            price={<span>$25.00</span>}
+            price2={<span>$35.00</span>}
           />
         </div>
         <div>
           <ProductCard2
             image={n3}
-            name={`Latest men’s sneaker`}
-            price={`$25.00`}
-            price2={`$35.00`}
+            name={<p>Latest men’s sneaker</p>}
+            price={<span>$25.00</span>}
+            price2={<span>$35.00</span>}
           />
         </div>
         <div>
           {" "}
           <ProductCard2
             image={n4}
-            name={`Latest men’s sneaker`}
-            price={`$25.00`}
-            price2={`$35.00`}
+            name={<p>Latest men’s sneaker</p>}
+            price={<span>$25.00</span>}
+            price2={<span>$35.00</span>}
           />
         </div>
         <div>
           {" "}
           <ProductCard2
             image={n5}
-            name={`Latest men’s sneaker`}
-            price={`$25.00`}
-            price2={`$35.00`}
+            name={<p>Latest men’s sneaker</p>}
+            price={<span>$25.00</span>}
+            price2={<span>$35.00</span>}
           />
         </div>
           <div>
           {" "}
           <ProductCard2
             image={i1}
-            name={`Latest men’s sneaker`}
-            price={`$25.00`}
-            price2={`$35.00`}
+            name={<p>Latest men’s sneaker</p>}
+            price={<span>$25.00</span>}
+            price2={<span>$35.00</span>}
           />
         </div>
           <div>
           {" "}
           <ProductCard2
             image={i7}
-            name={`Latest men’s sneaker`}
-            price={`$25.00`}
-            price2={`$35.00`}
+            name={<p>Latest men’s sneaker</p>}
+            price={<span>$25.00</span>}
+            price2={<span>$35.00</span>}
           />
         </div>
           <div>
           {" "}
           <ProductCard2
             image={i3}
-            name={`Latest men’s sneaker`}
-            price={`$25.00`}
-            price2={`$35.00`}
+            name={<p>Latest men’s sneaker</p>}
+            price={<span>$25.00</span>}
+            price2={<span>$35.00</span>}
           />
         </div>
           <div>
           {" "}
           <ProductCard2
             image={i4}
-            name={`Latest men’s sneaker`}
-            price={`$25.00`}
-            price2={`$35.00`}
+            name={<p>Latest men’s sneaker</p>}
+            price={<span>$25.00</span>}
+            price2={<span>$35.00</span>}
           />
         </div>
         </div>

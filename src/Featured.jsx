@@ -12,9 +12,9 @@ const Featured = () => {
         <p className='text-gray-500'>Bring called seed first of third give itself now ment</p>
     </div>
     <div className='flex justify-center gap-25 pt-[40px] pb-[50px]'>
-       <ProductCard image={m1} name={`Latest men’s sneaker`} price={`$25.00`} price2={`$35.00`}/>
-      <ProductCard image={m2} name={`Red women purses`} price={`$25.00`} price2={`$35.00`}/>
-      <ProductCard image={m3} name={`Men stylist Smart Watch`} price={`$25.00`} price2={`$35.00`}/>
+       <ProductCard image={m1} name={<p>Latest men’s sneaker</p>} price={<span>$25.00</span>} price2={<span>$35.00</span>}/>
+      <ProductCard image={m2} name={<p>Red women purses</p>} price={<span>$25.00</span>} price2={<span>$35.00</span>}/>
+      <ProductCard image={m3} name={<p>Men stylist Smart Watch</p>} price={<span>$25.00</span>} price2={<span>$35.00</span>}/>
 </div>
     </div>
     </>

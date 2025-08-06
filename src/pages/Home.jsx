@@ -1,31 +1,32 @@
-import NavBar from "../NavBar"
-import Hero from "../Hero"
-import Service from "../Service"
-import Featured from "../Featured"
-import Offer from "../Offer"
-import New from "../New"
-import Inspired from "../Inspired"
-import Blog from "../Blog"
-import Footer from "../Footer"
+import NavBar from "../NavBar";
+import Hero from "../Hero";
+import Service from "../Service";
+import Featured from "../Featured";
+import Offer from "../Offer";
+import New from "../New";
+import Inspired from "../Inspired";
+import Blog from "../Blog";
+import Footer from "../Footer";
+import Container from "../Container";
 const Home = () => {
   return (
     <>
-       <NavBar />
-       <Hero />
-    <div className="container mx-auto">
-       <Service />
-      <Featured />
-      </div>
+      <NavBar />
+      <Hero />
+      <Container>
+        <Service />
+        <Featured />
+      </Container>
       <Offer />
-       <div className="container mx-auto">
-      <New />
-      <Inspired  />
-      <Blog />
-    </div>
-      <Footer /> 
-     
-    </>
-  )
-}
+      <Container>
+        <New />
+        <Inspired />
+        <Blog />
+      </Container>
 
-export default Home
+      <Footer />
+    </>
+  );
+};
+
+export default Home;

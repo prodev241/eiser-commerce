@@ -42,13 +42,13 @@ const Shop = () => {
             Browse Categories
           </h2>
           <div className=" text-gray-500 flex flex-col gap-2 pt-6 ">
-            <CategoryName name = " Frozen Fish"/>
-            <CategoryName name = " Dried Fish"/>
-            <CategoryName name = " Fresh Fish"/>
-            <CategoryName name = " Meat Alternatives"/>
-            <CategoryName name = " Fresh Fish"/>
-            <CategoryName name = " Meat Alternatives"/>
-            <CategoryName name = " Meat"/>
+            <CategoryName name = {<span> Frozen Fish</span>}/>
+            <CategoryName name = {<span> Dried Fish</span>}/>
+            <CategoryName name =  {<span> Fresh Fish</span>} />
+            <CategoryName name =  {<span> Meat Alternatives</span>} />
+            <CategoryName name =  {<span> Fresh Fish</span>} />
+            <CategoryName name = {<span> Meat Alternatives</span>} />
+            <CategoryName name =  {<span> Meat</span>} />
           </div>
           </div>
               <div className="pt-[40px]">
@@ -56,11 +56,11 @@ const Shop = () => {
             Product Brand
           </h2>
           <div className=" text-gray-500 flex flex-col gap-2 pt-6 ">
-            <CategoryName name = " Apple "/>
-            <CategoryName name = " Asus"/>
-            <CategoryName name = " Gionee"/>
-            <CategoryName name = " Micromax"/>
-            <CategoryName name = " Samsung"/>
+            <CategoryName name = {<span> Apple</span>} />
+            <CategoryName name = {<span> Asus</span>} />
+            <CategoryName name = {<span> Gionee</span>}/>
+            <CategoryName name = {<span> Micromax</span>}/>
+            <CategoryName name = {<span> Samsung</span>} />
           </div>
           </div>
               <div  className="pt-[40px]">
@@ -68,11 +68,11 @@ const Shop = () => {
             Color Filter
           </h2>
           <div className=" text-gray-500 flex flex-col gap-2 pt-6 ">
-            <CategoryName name = " Black"/>
-            <CategoryName name = " Black Leather "/>
-            <CategoryName name = " Black with red"/>
-            <CategoryName name = " Gold"/>
-            <CategoryName name = " Spacegrey"/>
+            <CategoryName name = {<span> Black</span>} />
+            <CategoryName name = {<span> Black Leather</span>} />
+            <CategoryName name = {<span> Black with red</span>} />
+            <CategoryName name = {<span> Gold</span>}/>
+            <CategoryName name = {<span> Spacegrey</span>} />
           </div>
           </div>
          
@@ -82,79 +82,79 @@ const Shop = () => {
             <div>
           <ProductCard2
             image={n2}
-            name={`Latest men’s sneaker`}
-            price={`$25.00`}
-            price2={`$35.00`}
+            name={<p>Latest men’s sneaker</p>}
+            price={<span>$25.00</span>}
+            price2={<span>$35.00</span>}
           />
         </div>
           <div>
           <ProductCard2
             image={n3}
-            name={`Latest men’s sneaker`}
-            price={`$25.00`}
-            price2={`$35.00`}
+            name={<p>Latest men’s sneaker</p>}
+            price={<span>$25.00</span>}
+            price2={<span>$35.00</span>}
           />
         </div>
         <div>
           {" "}
           <ProductCard2
             image={n4}
-            name={`Latest men’s sneaker`}
-            price={`$25.00`}
-            price2={`$35.00`}
+            name={<p>Latest men’s sneaker</p>}
+            price={<span>$25.00</span>}
+            price2={<span>$35.00</span>}
           />
         </div>
         <div>
           {" "}
           <ProductCard2
             image={n5}
-            name={`Latest men’s sneaker`}
-            price={`$25.00`}
-            price2={`$35.00`}
+            name={<p>Latest men’s sneaker</p>}
+            price={<span>$25.00</span>}
+            price2={<span>$35.00</span>}
           />
         </div>
           <div>
           {" "}
           <ProductCard2
             image={i1}
-            name={`Latest men’s sneaker`}
-            price={`$25.00`}
-            price2={`$35.00`}
+            name={<p>Latest men’s sneaker</p>}
+            price={<span>$25.00</span>}
+            price2={<span>$35.00</span>}
           />
         </div>
           <div>
           {" "}
           <ProductCard2
             image={i7}
-            name={`Latest men’s sneaker`}
-            price={`$25.00`}
-            price2={`$35.00`}
+            name={<p>Latest men’s sneaker</p>}
+            price={<span>$25.00</span>}
+            price2={<span>$35.00</span>}
           />
         </div>
           <div>
           {" "}
           <ProductCard2
             image={i3}
-            name={`Latest men’s sneaker`}
-            price={`$25.00`}
-            price2={`$35.00`}
+            name={<p>Latest men’s sneaker</p>}
+            price={<span>$25.00</span>}
+            price2={<span>$35.00</span>}
           />
         </div>
           <div>
           {" "}
           <ProductCard2
             image={i4}
-            name={`Latest men’s sneaker`}
-            price={`$25.00`}
-            price2={`$35.00`}
+            name={<p>Latest men’s sneaker</p>}
+            price={<span>$25.00</span>}
+            price2={<span>$35.00</span>}
           />
         </div>
              <div>
           <ProductCard2
             image={n2}
-            name={`Latest men’s sneaker`}
-            price={`$25.00`}
-            price2={`$35.00`}
+            name={<p>Latest men’s sneaker</p>}
+            price={<span>$25.00</span>}
+            price2={<span>$35.00</span>}
           />
         </div>
 

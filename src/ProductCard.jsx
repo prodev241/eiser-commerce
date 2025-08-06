@@ -1,4 +1,3 @@
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCartShopping,
@@ -35,7 +34,7 @@ const ProductCard = ({ image, name, price, price2 }) => {
       <div>
         <p className=" hover:text-green-500 pl-1">{name}</p>
         <p className="text-[20px] pt-[3px] pl-1">
-          {price}{" "}
+          {price}
           <span className="line-through text-gray-500 pl-[21px] text-[15px]">
             {price2}
           </span>

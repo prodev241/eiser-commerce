@@ -32,35 +32,35 @@ const New = () => {
   <div>
           <ProductCard
             image={n2}
-            name={`Latest men’s sneaker`}
-            price={`$25.00`}
-            price2={`$35.00`}
+            name={<p>Latest men’s sneaker</p>}
+            price={<span>$25.00</span>}
+            price2={<span>$25.00</span>}
           />
         </div>
         <div>
           <ProductCard
             image={n3}
-            name={`Latest men’s sneaker`}
-            price={`$25.00`}
-            price2={`$35.00`}
+            name={<p>Latest men’s sneaker</p>}
+            price={<span>$25.00</span>}
+            price2={<span>$35.00</span>}
           />
         </div>
         <div>
           {" "}
           <ProductCard
             image={n4}
-            name={`Latest men’s sneaker`}
-            price={`$25.00`}
-            price2={`$35.00`}
+            name={<p>Latest men’s sneaker</p>}
+            price={<span>$25.00</span>}
+            price2={<span>$35.00</span>}
           />
         </div>
         <div>
           {" "}
           <ProductCard
             image={n5}
-            name={`Latest men’s sneaker`}
-            price={`$25.00`}
-            price2={`$35.00`}
+            name={<p>Latest men’s sneaker</p>}
+            price={<span>$25.00</span>}
+            price2={<span>$35.00</span>}
           />
         </div>
         </div>
