@@ -10,7 +10,7 @@ export const Contect = () => {
     <>
       <div className="flex   justify-between align-middle pt-[100px] pl-[155px] pr-[200px] container mx-auto">
         <div>
-          <h2 className="font-medium  text-[27px]">Shop Category</h2>
+          <h2 className="font-medium  text-[27px]">Contact Us</h2>
           <p className=" text-gray-500 pt-[8px]">
             Very us move be blessed multiply night
           </p>
@@ -21,7 +21,7 @@ export const Contect = () => {
               <Link to="/">Home /</Link>
             </li>
             <li className=" text-gray-500  hover:text-green-600">
-              <Link to="shop"> Contect Us</Link>
+              <Link to="shop"> Contact Us</Link>
             </li>
           </ul>
         </div>

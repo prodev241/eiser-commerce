@@ -37,7 +37,7 @@ const NavBar = () => {
              <a href="#">PAGES</a>
             </li>
             <li className=" hover:text-green-600">
-               <NavLink className={({isActive}) => isActive ? "text-green-600":"" } to="/contect">CONTECT</NavLink>
+               <NavLink className={({isActive}) => isActive ? "text-green-600":"" } to="/contect">CONTACT</NavLink>
             </li>
           </ul>
         </div>
