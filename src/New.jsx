@@ -19,7 +19,7 @@ const New = () => {
           <h5 className="text-gray-600 pt-[41px]">COLLECTION OF 2025</h5>
           <h1 className="text-[30px] font-bold">MEN'S SUMMER T-SHIRT</h1>
           <div className="pl-[210px] p-[110px]">
- <img  src={n1} alt="" srcset="" />
+ <img  src={n1} />
           </div> 
           <p className="text-[25px]">$120.70</p>
           <div className="mt-[15px]">

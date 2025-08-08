@@ -23,13 +23,13 @@ const Shop = () => {
         <div>
           <ul className="flex pt-[28px] ">
             <li className=" text-gray-500  hover:text-green-600">
-              <Link to="home">Home /</Link>
+              <Link to="/">Home /</Link>
             </li>
             <li className=" text-gray-500  hover:text-green-600">
-              <Link to="shop"> Shop /</Link>
+              <Link to="/shop"> Shop /</Link>
             </li>
             <li className=" text-gray-500  hover:text-green-600">
-              <Link to="shop"> Women Fashion</Link>
+              <Link to=""> Women Fashion</Link>
             </li>
           </ul>
         </div>

@@ -6,14 +6,14 @@ const Blog = () => {
   return (
     <>
     <div className="container mx-auto">
-      <div className="text-center pt-[125px] pr-[49px] pb-[20px]">
+      <div className="text-center pt-[125px] pr-[48px] pb-[20px]">
         <h1 className="pb-[27px] text-2xl font-bold">LATEST BLOG</h1>
         <p className="text-gray-500">
           Bring called seed first of third give itself now ment
         </p>
       </div>
 
-      <div className="flex justify-center pt-[50px] gap-7 pb-10 pr-[54px] " >
+      <div className="flex justify-center pt-[50px] gap-7 pb-10 pr-[41px] " >
         <BlogCard
           a1={<span>By Admin</span>}
           a2={<span>2 Comments</span>}
